@@ -8,11 +8,11 @@
     },
     "pip-compile": {
         "fileMatch": [
-            "(^|/)requirements.in$",
-            "(^|/)requirements-fmt.in$",
-            "(^|/)requirements-lint.in$",
-            "(^|/)requirements-unit.in$",
-            "(^|/)requirements-integration.in$",
+            "(^|/)requirements\\.in$",
+            "(^|/)requirements-fmt\\.in$",
+            "(^|/)requirements-lint\\.in$",
+            "(^|/)requirements-unit\\.in$",
+            "(^|/)requirements-integration\\.in$",
             "(^|/)requirements.*\\.in$"
         ],
         "lockFileMaintenance": {
@@ -21,8 +21,7 @@
         }
     },
     "pip_requirements": {
-        "enabled": false,
-        "ignorePaths": ["(^|/)requirements.*\\.txt", "charms/argo-controller/requirements-integration\\.txt"]
+        "enabled": false
     },
     "automergeType": "branch",
     "packageRules": [
