@@ -21,7 +21,8 @@
         }
     },
     "pip_requirements": {
-        "enabled": false
+        "enabled": false,
+        "ignorePaths": ["(^|/)requirements.*\\.txt"]
     },
     "automergeType": "branch",
     "packageRules": [
