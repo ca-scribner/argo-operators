@@ -22,7 +22,7 @@
     },
     "pip_requirements": {
         "enabled": false,
-        "ignorePaths": ["(^|/)requirements.*\\.txt"]
+        "ignorePaths": ["(^|/)requirements.*\\.txt", "charms/argo-controller/requirements-integration\\.txt"]
     },
     "automergeType": "branch",
     "packageRules": [
