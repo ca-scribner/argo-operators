@@ -3,9 +3,6 @@
     "rebaseWhen": "behind-base-branch",
     "dependencyDashboard": true,
     "branchPrefix": "renovate-",
-    "constraints": {
-        "python": "3.8.0"
-    },
     "pip-compile": {
         "fileMatch": [
             "(^|/)requirements\\.in$",
